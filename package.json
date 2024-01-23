@@ -1,0 +1,11 @@
+{
+  "name": "train-group-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "script.js"
+  },
+  "author": "Iryna Kovalova <kovra777@gmail.com>",
+  "license": "ISC"
+}
