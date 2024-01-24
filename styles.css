@@ -139,13 +139,14 @@ button {
 .favorites__card-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  
 }
 
 @media screen and (min-width: 768px) {
   .favorites__card-list {
     flex-direction: row;
-    gap: 16px;
+    align-items: stretch;
+    
   }
 }
 
@@ -332,8 +333,8 @@ button {
 }
 
 .favorite__white-card {
-  display: flex;
-  align-items: center;
+  
+  
   cursor: initial;
   min-height: 119px;
   padding: 20px;
@@ -342,7 +343,7 @@ button {
   
 }
 .favorite__white-card-text {
-  
+  justify-content: center;
 }
 
 
