@@ -1,7 +1,75 @@
 
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+  background-color: #E8E8E8;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+ol {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Контейнер  */
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
 
 
+
+
+
+/* МОЇ СТИЛІ  */
 
 
 
@@ -33,9 +101,9 @@
   position: relative;
   min-height: 206px;
   padding: 20px 20px 20px 72px;
-  margin-bottom: 20px;
+  
   border-radius: 20px;
-  background-color: var(--color-black);
+  background-color: #7E847F;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,7 +125,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1em;
-  color: var(--color-white);
+  color: #F6F6F6;
 }
 
 @media screen and (min-width: 768px) {
@@ -86,6 +154,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 138px;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -150,17 +219,17 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 15px;
-  height: 10px;
-  fill: var(--color-white);
+  width: 28px;
+  height: 28px;
+  fill: #F6F6F6;
 }
 
 @media screen and (min-width: 768px) {
   .commas__svg {
     top: 40px;
     right: 40px;
-    width: 17px;
-    height: 16px;
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -173,12 +242,13 @@
       rgba(17, 17, 17, 0) 0%,
       rgba(17, 17, 17, 0.4) 100%
     ),
-    url(../../img/favorites-image-mobile.jpg);
+    url(/favorites-image-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 119px;
+  
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -262,12 +332,20 @@
 }
 
 .favorite__white-card {
+  display: flex;
+  align-items: center;
   cursor: initial;
   min-height: 119px;
   padding: 20px;
   border-radius: 20px;
   background-color: #fff;
+  
 }
+.favorite__white-card-text {
+  
+}
+
+
 
 @media screen and (min-width: 768px) {
   .favorite__white-card {
@@ -294,7 +372,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1em;
-  color: var(--color-black);
+  color: #000000;
 }
 
 @media screen and (min-width: 768px) {
